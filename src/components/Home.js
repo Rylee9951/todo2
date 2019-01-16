@@ -9,6 +9,7 @@ class Home extends Component {
   render() { 
     return ( 
       <div id='container'>
+        <h1>Todos</h1>
         <TodoForm />
         <TodoList />
         <Filters />

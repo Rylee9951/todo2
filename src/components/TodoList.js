@@ -17,7 +17,7 @@ class TodoList extends Component {
   }
 }
 function mapStateToProps(appState) {
-  console.log(appState)
+ 
   if(appState.filter === 'all'){
     return {
       todos: appState.todos
