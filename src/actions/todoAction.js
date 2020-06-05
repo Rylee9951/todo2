@@ -11,12 +11,7 @@ export function addTodo(todo){
 		}
 	})
 }
-export function changeStatus(id){
-	store.dispatch ({
-		type: 'TOGGLE_TODO',
-		id: id
-		})
-}
+
 export function filterTodos(filter){
 	store.dispatch({
 	type: 'FILTER_TODOS',
